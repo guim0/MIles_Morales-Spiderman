@@ -322,3 +322,15 @@
         padding-left: $gap-5;
         padding-right: $gap-5;
     }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .align-items-center {
+        align-items: center;
+    }
+    
+    .w-auto {
+        width: auto;
+    }

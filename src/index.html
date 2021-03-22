@@ -21,10 +21,10 @@
                     <img src="/svg/logo-spiderman.svg" onload="SVGInject(this)" alt="logo-spiderman">
                 </div>
                 <ul class="nav-list">
-                    <li><a href="" class="nav-link">Home</a></li>
-                    <li><a href="" class="nav-link">Story</a></li>
-                    <li><a href="" class="nav-link">Wallpapers</a></li>
-                    <li><a href="" class="nav-link">#BeYourself </a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Story</a></li>
+                    <li><a href="#" class="nav-link">Wallpapers</a></li>
+                    <li><a href="#" class="nav-link">#BeYourself </a></li>
                 </ul>
             </div>
             <div class="nav-social">
@@ -36,6 +36,14 @@
             <div class="bx mr-2"> </div>
         </nav>
     </header>
+
+    <!-- B G - V I D E O -->
+
+    <section class="bg-video">
+        <video autoplay muted loop class="video">
+    <source src="/video/miles.mp4" type="video/mp4">
+        </video>
+    </section>
 
     <!-- C O N T A I N E R -->
     <section class="container">
@@ -59,10 +67,27 @@
             </div>
         </div>
         <div class="container-item-2">
-            <img src="/assets/spider-man.png" class="spiderman" onload="SVGInject(this)" alt="Miles Morales">
+            <div class="js-tilt">
+                <img src="/assets/spider-man.png" class="spiderman" onload="SVGInject(this)" alt="Miles Morales">
+            </div>
         </div>
     </section>
 
+
+    <!-- J S  -->
+    <script src="/js/app.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    <script>
+        $('.js-tilt').tilt({
+            perspective: 2000,
+            scale: 1.05,
+            option: value,
+            option: value,
+        });
+    </script>
 </body>
 
 </html>
